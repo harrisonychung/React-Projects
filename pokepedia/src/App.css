@@ -3,6 +3,7 @@
   justify-content: center;
   font-family: arial;
   font-size: 25px;
+  flex-direction: column;
 }
 body {
   margin: 0%;
@@ -41,4 +42,18 @@ body {
 
 .TitleSection button:hover {
   cursor: pointer;
+}
+
+.Display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Display h3,h5 {
+  margin: 7px;
+}
+
+.Display img {
+  width: 200px;
 }
